@@ -1,0 +1,44 @@
+{
+  "name": "quote-api",
+  "version": "0.14.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LyoSU/quote-api.git"
+  },
+  "author": "LyoSU",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LyoSU/quote-api/issues"
+  },
+  "homepage": "https://github.com/LyoSU/quote-api#readme",
+  "dependencies": {
+    "canvas": "2.11.0",
+    "dotenv": "^7.0.0",
+    "emoji-db": "^14.0.1",
+    "jimp": "^0.16.1",
+    "jsdom": "^16.5.3",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.1",
+    "koa-ratelimit": "^4.2.1",
+    "koa-response-time": "^2.1.0",
+    "koa-router": "^7.4.0",
+    "lottie-node": "^2.0.0",
+    "lottie-web": "^5.7.8",
+    "lru-cache": "^5.1.1",
+    "object-sizeof": "^1.6.0",
+    "runes": "^0.4.3",
+    "serverless-http": "^3.2.0",
+    "sharp": "^0.31.3",
+    "smartcrop-sharp": "2.0.7",
+    "telegraf": "^3.38.0"
+  }
+}
